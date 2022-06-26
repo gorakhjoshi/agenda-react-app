@@ -24,7 +24,6 @@ export default function AddAgenda() {
     status: false,
     day: new Date(),
   });
-  console.log(agenda);
   const { title, description, status, day } = agenda;
 
   const handleChange = (e) => {

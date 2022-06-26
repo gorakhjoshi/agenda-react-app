@@ -8,6 +8,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Moment from "moment";
 import { useEffect, useState } from "react";
+import ReactHtmlTableToExcel from "react-html-table-to-excel";
 import { Link } from "react-router-dom";
 import Container from "../screens/Container";
 
@@ -34,9 +35,16 @@ export default function Home() {
 
   return (
     <Container>
+      <ReactHtmlTableToExcel
+        id="test-table-xls-button"
+        table="table-to-xls"
+        filename="tablexls"
+        sheet="tablexls"
+        buttonText="Export to XLS"
+      />
       {agendas.length > 0 ? (
         <TableContainer component={Paper}>
-          <Table>
+          <Table id="table-to-xls">
             <TableHead>
               <TableRow>
                 <TableCell>Title</TableCell>
