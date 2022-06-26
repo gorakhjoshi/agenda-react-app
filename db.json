@@ -1,10 +1,10 @@
 {
   "agendas": [
     {
-      "title": "Test Agenda Title",
-      "description": "Test agenda description",
-      "status": true,
-      "day": "Sunday, June 26, 2022 11:55 PM",
+      "title": "ds",
+      "description": "fdfs",
+      "status": false,
+      "day": "2022-06-26T18:51:41.967Z",
       "id": 1
     }
   ]

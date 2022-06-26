@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import AddAgenda from "./Pages/AddAgenda";
 import Home from "./Pages/Home";
 import ViewAgendaNew from "./Pages/ViewAgenda";
 import Container from "./screens/Container";
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/agendas/view/:id" element={<ViewAgendaNew />} />
+          <Route path="/agendas/add" element={<AddAgenda />} />
         </Routes>
       </Container>
     </Router>

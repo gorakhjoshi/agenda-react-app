@@ -1,9 +1,6 @@
-import * as React from "react";
-import Stack from "@mui/material/Stack";
+import { Box } from "@mui/material";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import Container from "./Container";
-import { Box } from "@mui/material";
 
 export default function Navbar() {
   return (
