@@ -1,3 +1,11 @@
 {
-  "agendas": []
+  "agendas": [
+    {
+      "title": "Test Agenda Title",
+      "description": "Test agenda description",
+      "status": true,
+      "day": "Sunday, June 26, 2022 11:55 PM",
+      "id": 1
+    }
+  ]
 }
